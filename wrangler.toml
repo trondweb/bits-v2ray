@@ -6,4 +6,4 @@ kv_namespaces = [
   { binding = "BITS_V2RAY", id = "3e119e6834a54c239128439451341b4a" }
 ]
 [observability]
-  enabled = true
+enabled = true
