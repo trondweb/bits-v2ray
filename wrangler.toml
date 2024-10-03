@@ -5,3 +5,6 @@ compatibility_flags = ["nodejs_compat"]
 kv_namespaces = [
   { binding = "settings", id = "3e119e6834a54c239128439451341b4a" }
 ]
+# wrangler.toml (wrangler v3.78.6^)
+[observability]
+enabled = true
