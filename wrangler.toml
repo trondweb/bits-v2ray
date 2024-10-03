@@ -1,6 +1,4 @@
 # wrangler.toml (wrangler v3.78.6^)
-[observability]
-enabled = true
 name = "bits"
 main = "src/worker.ts"
 compatibility_date = "2024-01-01"
@@ -8,3 +6,5 @@ compatibility_flags = ["nodejs_compat"]
 kv_namespaces = [
   { binding = "settings", id = "3e119e6834a54c239128439451341b4a" }
 ]
+[observability]
+  enabled = true
